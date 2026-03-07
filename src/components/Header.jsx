@@ -21,9 +21,6 @@ const Header = () => {
           <Link className=" px-2" to="/about">
             <li>About us</li>
           </Link>
-          <Link className=" px-2" to="/contact">
-            <li>Contact us</li>
-          </Link>
           <Link className=" px-2" to="/cart">
             <li>Cart</li>
           </Link>
