@@ -7,8 +7,8 @@ const Header = () => {
   const isOnline = useOnlineStatus();
   return (
     <div className="flex justify-between items-center bg-white shadow-lg">
-      <div className="py-1 w-44 h-24 ml-10">
-        <img src={LOGO_URL} alt="swiggy-logo" className="w-24 h-24" />
+      <div className="ml-10">
+        <img src={LOGO_URL} alt="swiggy-logo" className="w-16 h-16 object-contain" />
       </div>
       <div className="px-10 py">
         <ul className="flex py-10">

@@ -7,6 +7,7 @@ const Body = () => {
   const isOnline = useOnlineStatus();
   const [searchTerm, setSearchTerm] = useState("");
   const { filteredCards } = useRestaurants();
+  
 
   const filterData = useMemo(() => {
     return filteredCards.filter((card) =>

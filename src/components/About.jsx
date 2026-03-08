@@ -21,7 +21,7 @@ const About = () => {
       <img src={userInfo.avatar_url} alt={userInfo.name} className="w-24 h-24 rounded-full border-4 border-orange-400 object-cover"/>
       <div className="text-center">
         <h1 className="text-xl font-bold text-gray-800">{userInfo.name}</h1>
-        <p className="text-sm text-gray-500">i am a software developer</p>
+        <p className="text-sm text-gray-500">React Developer | 4+ Years Experience</p>
       </div>
       <div className="flex gap-8 text-center mt-2">
         <div className="flex flex-col items-center">

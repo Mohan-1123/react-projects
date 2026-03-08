@@ -1,4 +1,4 @@
-# FoodieHub
+# FoodieHub 🍕
 
 A food delivery web app built with React that shows live restaurants from Swiggy.
 
